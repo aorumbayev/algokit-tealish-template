@@ -6,7 +6,7 @@ from algosdk.logic import get_application_address
 secrets, addresses = generate_accounts(2)
 sp = get_suggested_params()
 
-p = TealishProgram(filename='examples/counter_prize.tl')
+p = TealishProgram(filename='src/{{project_name}}.tl')
 
 APP_ID = 1
 APP_ADDRESS = get_application_address(APP_ID)

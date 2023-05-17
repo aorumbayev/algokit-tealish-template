@@ -1,26 +1,13 @@
-# questions
-# project_name should never get prompted, AlgoKit should always pass it by convention
+_subdirectory: project
+
 project_name:
     type: str
     help: Name for this project.
-    placeholder: "algorand--tealish-app"
 
 author_name:
     type: str
     help: Package author name
-    placeholder: "Your Name"
 
 author_email:
     type: str
     help: Package author email
-    placeholder: "your@email.tld"
-
-ide_vscode:
-    type: bool
-    help: Do you want to add VSCode configuration?
-    default: yes
-
-use_github_actions:
-    type: bool
-    help: Do you want to include Github Actions workflows for build and testnet deployment?
-    default: yes
